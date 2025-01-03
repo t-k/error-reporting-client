@@ -10,6 +10,14 @@ Inspired by [stackdriver-errors-js](https://www.npmjs.com/package/stackdriver-er
 
 See the [Prerequisites](https://github.com/GoogleCloudPlatform/stackdriver-errors-js/tree/master?tab=readme-ov-file#prerequisites) in the [stackdriver-errors-js](https://www.npmjs.com/package/stackdriver-errors-js) package.
 
+## Installation
+
+```sh
+npm i error-reporting-client
+# if you use pnpm
+pnpm i error-reporting-client
+```
+
 ## Usage
 
 ```ts
