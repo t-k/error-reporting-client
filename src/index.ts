@@ -220,7 +220,7 @@ class ErrorReporting {
     const mappedStack: Stack[] = [];
 
     for (const line of stackLines) {
-      const match = RegExp(/(.*)((https?|file):\/\/.*):(\d+):(\d+)/).exec(line);
+      const match = RegExp(/(.*)(https?:\/\/.*):(\d+):(\d+)/).exec(line);
       if (match == null) {
         continue;
       }
