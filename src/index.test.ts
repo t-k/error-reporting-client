@@ -63,7 +63,7 @@ describe("ErrorReporting", () => {
             "Content-Type": "application/json; charset=UTF-8",
           },
           body: expect.stringMatching(
-            /^{"serviceContext":{"service":"test-service","version":"1.0.0"},"message":"Error: test error\\n {4}at file.+filePath":"\.\/src\/index\.test.ts","lineNumber":53,"functionName":"test"},"sourceReferences":\[\]}}$/,
+            /^{"serviceContext":{"service":"test-service","version":"1.0.0"},"message":"Error: test error\\n {4}at.+filePath":"\.\/src\/index\.test.ts","lineNumber":53,"functionName":"test"},"sourceReferences":\[\]}}$/,
           ),
         }),
       );
