@@ -21,7 +21,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "source-map-js": "^1.2.1"
+    "source-map-js": "^1.2.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
